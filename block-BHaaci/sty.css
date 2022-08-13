@@ -1,0 +1,199 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* General */
+.flex {
+  display: flex;
+ }
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 10px 200px;
+}
+
+
+/* custom style */
+.main{
+    background: linear-gradient(to right, rgba(251, 4, 4, 0.534) , rgba(255, 0, 0, 0.5) ),  url("assets/bg-intro-desktop.png");
+}
+.part-1{
+    margin-top: 200px;
+    width: 50%;
+}
+.part-2{
+    margin: 100px 100px;
+    width: 45%;
+}
+h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.para{ margin-top: 20px;
+    color: white;
+}
+
+fieldset{
+    width: 450px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-control{
+    height: 50px;
+    margin: 10px 20px;
+   padding-left: 20px;
+    width: 85%;
+    border-radius: 4px;
+    border: 1px solid black;   
+}
+.form-control2{
+    
+    background-color: #37CC8A;
+text-align: center;
+color: white;
+font-weight: bold;
+align-self: center  ;
+}
+.box{
+    margin: 20px 0;
+    width: 485px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: #5D54A3;
+    text-align: center;
+    box-shadow: 1px 8px rgba(128, 128, 128, 0.491);
+    
+}
+.bold{
+    font-weight: bold;
+}
+.small-para{ margin-bottom: 20px;
+    text-align: center;
+    font-size: 11px;
+    color: gray;
+}
+.small-para2{color: red;}
